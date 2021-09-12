@@ -1,0 +1,11 @@
+{
+  "name": "sdklistojson",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "author": "Gamotronic#1025",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

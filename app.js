@@ -1,0 +1,12 @@
+const loger = require("./module/log");
+const startup = require("./module/startup");
+const config = require("./config.json");
+const uncompile = require("./module/root/decompler");
+const startjsoninfo = require("./start.json");
+const setupfile = require("./module/root/setup");
+//require('events').EventEmitter.prototype._maxListeners = 1;
+startup.startcopreing();
+startup.startinfo();
+setupfile.setup();
+uncompile.uncompile(startjsoninfo.NamesDump, startjsoninfo.ObjectsDump);
+startup.EndInfo();
