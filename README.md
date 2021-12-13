@@ -1,5 +1,5 @@
 # Sdk list to json
-convert ureal Finder tool txt and log (Generator.log & NamesDump.txt & ObjectsDump.txt) to .json Format for more facility to make game modding 
+convert unreal sdk (list not the c++) txt and log (Generator.log & NamesDump.txt & ObjectsDump.txt) to .json Format for more facility to make do modding 
 
 #how to use 
 
